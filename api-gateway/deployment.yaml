@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: api-gateway
-          image: yourdockerhub/api-gateway:v1
+          image: brajsharma/api-gateway:v1
           ports:
             - containerPort: 3000
