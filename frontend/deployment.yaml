@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nginxdemos/hello:latest
+          image: brajsharma/frontend:v1
           ports:
             - containerPort: 80
